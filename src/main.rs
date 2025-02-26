@@ -1,3 +1,7 @@
+const NUM = 0;
+
 fn main() {
-    println!("Hai Kenedy Nopriansyah");
+    for i in 0..NUM {
+        println!("{}", i + 1);
+    }
 }
