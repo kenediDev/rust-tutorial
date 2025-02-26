@@ -1,12 +1,9 @@
 fn main() {
-    // ini adalah komen didalam bahasa rust programming
+    let mut num = 10;
 
-    /*
-       nama      : Kenedy Nopriansyah
-       deskripsi : Sedang belajar bahasa rust programming
-    */
+    println!("{}", num);
 
-    print!("Hai Nama Saya Adalah ");
-    println!("Kenedy Nopriansyah jangan lupa like and subscribe :)");
-    print!("Hello, world!");
+    num = 32;
+
+    println!("Next Number {}", num);
 }
