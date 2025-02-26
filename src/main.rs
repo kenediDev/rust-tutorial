@@ -1,3 +1,11 @@
 fn main() {
-    println!("Hai Kenedy Nopriansyah");
+    let mut num = 0;
+
+    while num <= 32 {
+        if num != 0 {
+            println!("{}", num);
+        }
+
+        num += 1;
+    }
 }
