@@ -1,3 +1,13 @@
 fn main() {
-    println!("Hai Kenedy Nopriansyah");
+    let mut n = 0;
+
+    loop {
+        n += 1;
+
+        println!("{}", n);
+
+        if n >= 10 {
+            break;
+        }
+    }
 }
