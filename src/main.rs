@@ -1,3 +1,11 @@
 fn main() {
-    println!("Hai Kenedy Nopriansyah");
+    let mut y = 10;
+
+    println!("{}", y);
+
+    {
+        y = 100;
+    }
+
+    println!("{}", y);
 }
