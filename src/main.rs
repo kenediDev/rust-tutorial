@@ -1,3 +1,9 @@
 fn main() {
-    println!("Hai Kenedy Nopriansyah");
+    let mut x = 10;
+
+    let new_x = &mut x;
+
+    *new_x += 1;
+
+    println!("{}", x);
 }
