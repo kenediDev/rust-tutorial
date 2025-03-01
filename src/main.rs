@@ -1,3 +1,5 @@
+mod kenedy;
+
 fn main() {
-    println!("Hai Kenedy Nopriansyah");
+    kenedy::to_string();
 }
