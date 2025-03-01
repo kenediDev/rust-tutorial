@@ -1,3 +1,16 @@
+use std::io;
+
 fn main() {
-    println!("Hai Kenedy Nopriansyah");
+    let mut input = String::new();
+
+    println!("Katakan sesuatu ? ");
+
+    match io::stdin().read_line(&mut input) {
+        Ok(_) => {
+            println!("Dia mengatakan : {}", input);
+        }
+        Err(err) => {
+            println!("{}", err);
+        }
+    }
 }
