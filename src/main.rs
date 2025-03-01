@@ -1,3 +1,9 @@
+use std::env;
+
 fn main() {
-    println!("Hai Kenedy Nopriansyah");
+    let argument: Vec<String> = env::args().collect();
+
+    for i in argument.iter() {
+        println!("{}", i);
+    }
 }
