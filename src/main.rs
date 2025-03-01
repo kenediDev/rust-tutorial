@@ -1,3 +1,7 @@
 fn main() {
-    println!("Hai Kenedy Nopriansyah");
+    let arr: [i32; 5] = [1, 2, 3, 4, 5];
+
+    for i in 0..arr.len() {
+        println!("index {} value {}", i, arr[i]);
+    }
 }
